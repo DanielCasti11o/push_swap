@@ -13,4 +13,4 @@ Estos son los argumentos, que nos indican en el subject:
 - sa, sb, ss, ra, rb, rr, rra, rrb, rrr, pa, pb.
 
   
-![image](https://github.com/user-attachments/assets/3145ff47-45ac-458e-9c13-36ec4531eaf5)
+  ![image](https://github.com/user-attachments/assets/3145ff47-45ac-458e-9c13-36ec4531eaf5)
