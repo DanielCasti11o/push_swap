@@ -23,4 +23,11 @@ Buscaremos:
 - El número mínimo dentro del arreglo. (MIN)
 - El número máximo dentro del arreglo. (MAX)
 - El número del centro del arreglo. (MEDIANA)
-Pero que pasa 
+Pero que pasa a la hora de buscar esa "mediana", pues que es importante para encontrarla tener nuestro algoritmo de ordenación el cual escogí el Q_SORT.
+# // Q_SORT \\
+Ok, nosotros para poder usar el q_sort necesitaremos proporcionar:
+- El arreglo a ordenar.
+- El número de elementos del arreglo.
+- El tamaño de cada elemento.
+- Una funcion de comparación que definirá el criterio de ordenación.
+
