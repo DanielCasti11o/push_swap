@@ -1,46 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pa.c                                               :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dacastil <dacastil@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/08 21:44:59 by dacastil          #+#    #+#             */
-/*   Updated: 2024/12/17 18:08:58 by dacastil         ###   ########.fr       */
+/*   Created: 2024/09/25 10:27:04 by dacastil          #+#    #+#             */
+/*   Updated: 2025/01/02 19:01:16 by dacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "push_swap.h"
 
-void	pa(t_list *lst)
+int	ft_atoi(char *nptr)
 {
-	int	i;
+	int	result;
+	int	chsg;
 
-	i = 0;
-	i = lst->ia;
-	lst->ib = lst->ib - 1;
-	lst->ia = lst->ia + 1;
-	while (i > 0)
+	chsg = 1;
+	result = 0;
+	while (*nptr == ' ' || *nptr == '\t' || *nptr == '\n'
+		|| *nptr == '\v' || *nptr == '\f' || *nptr == '\r')
 	{
-		swap(lst->a[i], lst->a[i - 1]);
-		i--;
+		nptr ++;
 	}
-	lst->a[0] = lst->b[0];
-	i = 0;
-	while (i <= lst->ib)
+	if (*nptr == '-')
 	{
-		lst->b[i] = lst->b[i + 1];
-		i++;
+		chsg = -1;
+		nptr ++;
 	}
-	write (1, "pa\n", 3);
+	else if (*nptr == '+')
+	{
+		nptr ++;
+	}
+	while ('0' <= *nptr && *nptr <= '9')
+	{
+		result = result * 10 + (*nptr - '0');
+		nptr ++;
+	}
+	return (result * chsg);
 }
-
-	// int	i;
-
-	// i = 0;
-	// if (!sta || !stb)
-	// 	return ;
-	// if (sta[i] && stb[i])
-// 	{
-// 		stb
-// 	}
