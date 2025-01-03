@@ -14,3 +14,13 @@ Estos son los argumentos, que nos indican en el subject:
 
   
   ![image](https://github.com/user-attachments/assets/3145ff47-45ac-458e-9c13-36ec4531eaf5)
+
+# 3 y 4 // FINDS Y ALGORITMO DE ORDENACION DE NÚMEROS
+
+-- OK, ¿que son los "finds"?
+Sencillo, los finds es lo que buscaremos para poder optimizar el trabajo del algoritmo, ¿que buscaremos?.
+Buscaremos:
+- El número mínimo dentro del arreglo. (MIN)
+- El número máximo dentro del arreglo. (MAX)
+- El número del centro del arreglo. (MEDIANA)
+Pero que pasa 
