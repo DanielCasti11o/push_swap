@@ -1,4 +1,5 @@
-# push_swap
+# push_swap [Arrays] // SIN TERMINAR
+
 Algoritmo de ordenacion de datos en C
 
 # Pasos a seguir
