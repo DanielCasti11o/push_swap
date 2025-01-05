@@ -2,7 +2,7 @@
 
 Algoritmo de ordenacion de datos en C
 
-# | Primero que nada mi STRUCT |
+# | Primero que nada mis STRUCT |
 
 ok te explico mi estructura para que la comprendas mejor
 
@@ -20,6 +20,7 @@ typedef struct s_stacks
 index = será  la posición del entero en un arreglo ordenado.
 
 post_init = posicion inicial de los enteros que nos pasan con un orden aleatorio 
+-------------------------------------------------------------------------------
 
 typedef struct s_pile
 {
