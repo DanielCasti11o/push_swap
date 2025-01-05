@@ -28,4 +28,8 @@ ARGUMENTOS --------------------------------------->   1    7    3
 
 Index // Posicion en un arreglo ordenado -->  [0]  [2]  [1]
 
+En este caso yo usaré:
+# Bubble sort
+Este algoritmo lo que hace es comparar el entero int[0] con el int[1], [2], [3], [...] y despues int[1] con int[2], [3], [...] y así consecutivamente...
+
 
