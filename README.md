@@ -39,9 +39,9 @@ ib = número de elementos en el stack b.
 
 ###############################################################################################
 
-
+----------------
 # Pasos a seguir
-------------------
+----------------
 # 1 // CHECKER DE ARGUMENTOS // PARSEO
 Lo primero que se debería hacer para empezar este proyecto, yo diría que es empezar haciendo los checkers de argumentos, ya que tenemos que tener en cuenta que los argumentos que le pasaremos a la función deben tener ciertos parametros,  los cuales son:
 
