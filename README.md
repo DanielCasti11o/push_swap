@@ -22,7 +22,7 @@ Cuando nos referimos a los "index", nos referimos a la posicion de cada valor o 
 
 # EJ:
 Pos_init // Posición inicial             -->  [0]  [1]  [2]
-                                         -->   1    7    3  
+ARGUMENTOS                               -->   1    7    3  
 Index // Posicion en un arreglo ordenado -->  [0]  [2]  [1]
 
 
