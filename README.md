@@ -7,10 +7,15 @@ Algoritmo de ordenacion de datos en C
 ok te explico mi estructura para que la comprendas mejor
 
 typedef struct s_stacks
+
 {
+
 	int	*content;  // Número
+ 
 	int	index;
+ 
 	int	post_init;
+
 }	t_stacks;
 
 index = será  la posición del entero en un arreglo ordenado.
