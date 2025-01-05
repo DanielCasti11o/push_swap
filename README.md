@@ -2,7 +2,8 @@
 
 Algoritmo de ordenacion de datos en C
 
-# Primero que nada mi estructura
+# | Primero que nada mi STRUCT |
+
 ok te explico mi estructura para que la comprendas mejor
 
 typedef struct s_stacks
