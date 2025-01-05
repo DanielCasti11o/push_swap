@@ -36,7 +36,9 @@ ia = número de elementos en el stack a.
 
 ib = número de elementos en el stack b.
 
+
 ###############################################################################################
+
 
 # Pasos a seguir
 # 1 // CHECKER DE ARGUMENTOS // PARSEO
