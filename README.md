@@ -18,6 +18,7 @@ typedef struct s_stacks
 	t_stacks;
 
 index = será  la posición del entero en un arreglo ordenado.
+
 post_init = posicion inicial de los enteros que nos pasan con un orden aleatorio 
 
 typedef struct s_pile
@@ -30,6 +31,7 @@ typedef struct s_pile
 }	t_pile;
 
 ia = número de elementos en el stack a.
+
 ib = número de elementos en el stack b.
 
 # Pasos a seguir
