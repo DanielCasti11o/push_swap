@@ -1,4 +1,4 @@
-# push_swap [Arrays] // SIN TERMINAR
+# PUSH_SWAP 42 [Arrays] // SIN TERMINAR
 
 Algoritmo de ordenacion de datos en C
 
