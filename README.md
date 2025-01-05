@@ -7,7 +7,6 @@ Algoritmo de ordenacion de datos en C
 ok te explico mi estructura para que la comprendas mejor
 
 typedef struct s_stacks
-
 {
 
 	int	*content;  // Número
@@ -15,14 +14,15 @@ typedef struct s_stacks
 	int	index;
  
 	int	post_init;
-
-}	t_stacks;
+}
+	t_stacks;
 
 index = será  la posición del entero en un arreglo ordenado.
 post_init = posicion inicial de los enteros que nos pasan con un orden aleatorio 
 
 typedef struct s_pile
 {
+
 	t_stacks	*st_a;  // stack o pila a
 	t_stacks	*st_b; // stack o pila b
 	int			ia;
