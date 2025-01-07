@@ -50,9 +50,9 @@ Lo primero que se debería hacer para empezar este proyecto, yo diría que es em
 - 
 oooooooooooo---> void	checkargs(int argc, char **argv); <---oooooooooooooooo
 
+
 ###############################################################################################
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Attach files by dragging & dropping, selecting or pasting them.
+
 
 - También debemos tener en cuenta que los argumentos no deben ser los mismos (esto quiere decir que no pueden haber numeros repetidos en los argumentos).
 
