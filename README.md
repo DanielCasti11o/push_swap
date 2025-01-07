@@ -47,11 +47,9 @@ Lo primero que se debería hacer para empezar este proyecto, yo diría que es em
 
 - Hay que comprobar que cadaa uno de los argumentos es un número
 - Deberás también, comprobar que el argumento este dentro del rango de INT_MIN y INT_MAX.
-
-{
+typedef struct	s_funcion
 	void	checkargs(int argc, char **argv);
-}
-
+_______________________
 - También debemos tener en cuenta que los argumentos no deben ser los mismos (esto quiere decir que no pueden haber numeros repetidos en los argumentos).
 
 # 2 // MOVIMIENTOS PARA APLICARLOS EN EL ALGORITMO
