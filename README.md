@@ -74,7 +74,32 @@ ARGUMENTOS --------------------------------------->   1 __ 7 __ 3
 
 Index // Posicion en un arreglo ordenado -->  [0]  [2]  [1]
 
-En este caso yo usaré:
+En este caso tienes opciones sencillas como:
 # Bubble sort
 Este algoritmo lo que hace es comparar el entero int[0] con el int[1], [2], [3], [...] y despues int[1] con int[2], [3], [...] y así consecutivamente...
 
+
+Yo, usé:
+# Insertion sort
+Insertion lo que hace es mover hacia delante todos los elementos que sean mayores a el que estoy parado, ejemplo si i=3, int[i] = 4; Entonces el arreglo desordenado será:
+
+int [5, 6, 7, 4];
+Entonces lo que pasará es: guardaremos int[i] = KEY; = 4.
+
+- [i - 1] > KEY?, si entonces int[i - 1] = 7 ---(i - 1 + 1)-> int [i] = 7.
+
+después i = i-1;
+
+y lo mismo:
+
+- [i - 1] > KEY?, si entonces int[i - 1] = 6 ---(i - 1 + 1)-> int [i] = 6.
+
+again :D
+
+- [i - 1] > KEY?, si entonces int[i - 1] = 5 ---(i - 1 + 1)-> int [i] = 5.
+
+y ahora por ultimo como llegamos a la primera posicion que es int [0] = 5, no podemos [i - 1]. Por lo tanto, int[0] = KEY.
+
+QUEDARÁ ASI = [4, 5, 6, 7].
+
+Y de esta manera podremos saber el INDEX, que es la posicion de los numeros en el arreglo ordenado y de esta manera poder aplicar el K-sort.
