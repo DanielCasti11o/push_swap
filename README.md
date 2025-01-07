@@ -50,39 +50,6 @@ Lo primero que se debería hacer para empezar este proyecto, yo diría que es em
 - 
 oooooooooooo---> void	checkargs(int argc, char **argv); <---oooooooooooooooo
 
-ok te explico mi estructura para que la comprendas mejor
-
-typedef struct s_stacks
-{
-
-	int	*content;  // Número
- 
-	int	index;
- 
-	int	post_init;
-}
-	t_stacks;
-
-index = será  la posición del entero en un arreglo ordenado.
-
-post_init = posicion inicial de los enteros que nos pasan con un orden aleatorio 
-
--------------------------------------------------------------------------------
-
-typedef struct s_pile
-{
-
-	t_stacks	*st_a;  // stack o pila a
-	t_stacks	*st_b; // stack o pila b
-	int			ia;
-	int			ib;
-}	t_pile;
-
-ia = número de elementos en el stack a.
-
-ib = número de elementos en el stack b.
-
-
 ###############################################################################################
 Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
 Attach files by dragging & dropping, selecting or pasting them.
